@@ -1,0 +1,36 @@
+hello!
+Landing page:
+flickering neon text
+
+Bio page:
+Background: assets/bio/background.png
+Title: Multidisciplinary Designer
+
+Preview page:
+assets/project_undefined/main.jpg,(UN_DEFINED), Defining Experience through affective interaction, #DD9F8C
+
+Map page:
+ROCKET, Ongoing projects
+LIBRARY, Research through Design
+SHOWROOM, Critical & Speculative Designe
+OFFICE, Design for business innovation
+PLAYGROUND, Aesthetics & Exploratory Works
+LOUNGE, Grab a drink with Tianyi
+
+Rocket:
+GLOW2021, Digital Self
+
+Library:
+go straight to (UN_DEFINED)page
+
+Showroom:
+gallery of Jackpot, Unity in vitro, Home Alone
+
+Office:
+BeeLive, Meowphis
+
+Playground:
+parfum de bambou, Whooper, Drinking Vessel
+
+
+
