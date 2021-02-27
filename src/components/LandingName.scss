@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300&display=swap);
+
+$neon-text-color: #ff00ff;
+$neon-border-color: #ff00ff;
+
+.landing_name {
+    font-family: 'MuseoModerno', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background: #000;
+    min-height: 100vh;
+
+    h1 {
+        font-size: 9rem;
+        font-weight: 200;
+        color: #fff;
+        padding: 1rem 3rem;
+        border: 0.65rem solid #fff;
+        border-radius: 2rem;
+        text-transform: uppercase;
+        animation: flicker 2.5s infinite alternate;     
+    }
+}
+
+@keyframes flicker {
+	0%,19%,21%,23%,25%,54%,56%,100% {
+		text-shadow: -0.2rem -0.2rem 1rem #fff, 0.2rem 0.2rem 1rem #fff, 0 0 2rem $neon-text-color, 0 0 4rem $neon-text-color, 0 0 6rem $neon-text-color, 0 0 8rem $neon-text-color, 0 0 10rem $neon-text-color;
+		box-shadow: 0 0 .5rem #fff, inset 0 0 .5rem #fff, 0 0 2rem $neon-border-color, inset 0 0 2rem $neon-border-color, 0 0 4rem $neon-border-color, inset 0 0 4rem $neon-border-color;
+	}
+	20%,24%,55% {
+		text-shadow: none;
+		box-shadow: none;
+	}
+}
+

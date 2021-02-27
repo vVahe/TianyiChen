@@ -1,4 +1,4 @@
-html {
+html, #root {
     margin: 0;
     height: 100%;
 }
