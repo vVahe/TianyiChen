@@ -1,11 +1,11 @@
 import React from 'react';
-import './App.css';
-import NavBar from '@components/navBar/NavBar';
+import './App.scss';
+import LandingPage from './features/landingPage/LandingPage';
 
 function App() {
     return (
         <div className="App">
-            <NavBar />
+            <LandingPage />
         </div>
     );
 }
