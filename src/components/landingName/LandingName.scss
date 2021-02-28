@@ -12,12 +12,12 @@ $neon-border-color: #ff00ff;
     min-height: 100vh;
 
     h1 {
-        font-size: 9rem;
+        font-size: 9vw;
         font-weight: 200;
         color: #fff;
-        padding: 1rem 3rem;
-        border: 0.65rem solid #fff;
-        border-radius: 2rem;
+        padding: 1vw 3vw;
+        border: 0.65vw solid #fff;
+        border-radius: 2vw;
         text-transform: uppercase;
         animation: flicker 2.5s infinite alternate;     
     }
