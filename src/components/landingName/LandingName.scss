@@ -5,14 +5,13 @@ $neon-text-color: #ff00ff;
 $neon-border-color: #ff00ff;
 
 .landing_name {
-    font-family: 'MuseoModerno', cursive;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    background: #000;
-    min-height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-12.5%, -50%);
 
     h1 {
+        font-family: 'MuseoModerno', cursive;
         font-size: 9vw;
         font-weight: 200;
         color: #fff;
