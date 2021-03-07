@@ -1,9 +1,16 @@
+$naw_arrow_width: 10vw;
+
 .nav_arrow {
     position: absolute;
     bottom: 2vh;
-    border-left: 5vh solid transparent;
-    border-right: 5vh solid transparent;
-    border-top: 2vw solid white;
     left: 50%;
     transform: translate(-50%, 0);
+    fill:none;
+    stroke-width:3px;
+    stroke:white;
+    width: $naw_arrow_width;
+
+    .nav_arrow-path {
+        width: $naw_arrow_width;
+    }
 }

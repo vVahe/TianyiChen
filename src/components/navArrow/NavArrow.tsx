@@ -1,8 +1,11 @@
 import React, { ReactElement } from 'react';
-import './NavArrow.scss';
+import './NavArrow.scss'; 
+import NavArrowSVG from '@components/navArrow/NavArrowSVG';
 
-function NavArrow(): ReactElement {
-    return <div className="nav_arrow"></div>;
+const NavArrow = () => {
+    return <div>
+        <NavArrowSVG />
+    </div>;
 }
 
 export default NavArrow;

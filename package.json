@@ -19,6 +19,7 @@
         "web-vitals": "^1.0.1"
     },
     "devDependencies": {
+        "@svgr/cli": "^5.5.0",
         "@types/react-router-dom": "^5.1.7",
         "eslint": "^7.20.0",
         "eslint-config-prettier": "^7.2.0",
@@ -30,7 +31,8 @@
         "start": "craco start",
         "build": "craco build",
         "test": "craco test",
-        "eject": "craco eject"
+        "eject": "craco eject",
+        "csvg": "npx svgr -d ./src/assets/optimized ./src/assets --typescript"
     },
     "eslintConfig": {
         "extends": [
