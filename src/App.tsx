@@ -11,15 +11,19 @@ const App = () => {
 
     return (
         <div className="App">
-            <TransitionGroup>
+            <TransitionGroup className="transition_group">
                 <CSSTransition
                     timeout={300}
                     classNames="fade"
                     key={location.key}
                 >
                     <Switch location={location}>
-                        <Route exact path="bio">
-                            <BioPage title="T" subtitle="C" bio="hey" />
+                        <Route exact path="/bio">
+                            <BioPage
+                                title="Tianyi"
+                                subtitle="I'm a designer"
+                                bio="Cool Cool Cool Cool"
+                            />
                         </Route>
                         <Route>
                             <LandingPage />
