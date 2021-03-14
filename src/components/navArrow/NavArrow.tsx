@@ -4,9 +4,9 @@ import NavArrowSVG from '@components/navArrow/NavArrowSVG';
 
 const NavArrow = () => {
     return (
-        <div>
+        <React.Fragment>
             <NavArrowSVG />
-        </div>
+        </React.Fragment>
     );
 };
 
