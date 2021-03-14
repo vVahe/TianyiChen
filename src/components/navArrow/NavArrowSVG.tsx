@@ -4,18 +4,11 @@ function NavArrowSVG(props: React.SVGProps<SVGSVGElement>) {
     return (
         <svg
             className="nav_arrow"
-            data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 100 40"
             {...props}
         >
-            <path
-                d="M120.5 52.72L71.18 91.25a11.84 11.84 0 01-13.89 0L8 52.72"
-                fill="none"
-                strokeLinecap="round"
-                strokeMiterlimit={10}
-                strokeWidth={3}
-                className="nav_arrow_path"
-            />
+            <path d="M98.09 2.5L55.936 35.571a10.1 10.1 0 01-11.872 0L1.91 2.5" />
         </svg>
     );
 }

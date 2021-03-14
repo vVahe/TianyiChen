@@ -1,16 +1,18 @@
 $naw_arrow_width: 10vw;
 
 .nav_arrow {
+    width: 10vw;
+    height: 4vh;
     position: absolute;
     display: block;
-    bottom: 2vh;
+    bottom: 5vh;
     left: 50%;
     transform: translate(-50%, 0);
     fill: none;
     stroke-width: 3px;
-    stroke: white;
+    padding: 2vh;
 
-    // .nav_arrow-path {
-    //     width: $naw_arrow_width;
-    // }
+    path {
+        stroke: white;
+    }
 }
